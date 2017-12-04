@@ -14,4 +14,4 @@ Then,
 ```
 ./drip.sh package_name_to_import input.js
 ```
-Keyword 'input.js' is the file name you wrote just now.
+Keyword 'input.js' is the name of the file you wrote just now.
