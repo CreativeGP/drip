@@ -17,7 +17,7 @@ then
 	browserify ${SRC} > bundle.js
 	
 	# Delete byproducts (optional)
-	rm -r node_modules package_lock.json
+	rm -r node_modules package-lock.json
     else
 	echo 'drip -i input.js -n package-name -s(save byproducts)'
     fi
