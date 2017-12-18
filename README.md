@@ -12,6 +12,6 @@ This keyword 'const' is very important to work well when you import package in H
 
 Then,
 ```
-./drip.sh package_name_to_import input.js
+./drip.sh -n package_name_to_import -i input.js -s(save byproducts)
 ```
 Keyword 'input.js' is the name of the file you wrote just now.
