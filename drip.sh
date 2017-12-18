@@ -6,8 +6,8 @@ then
     do
 	case $OPT in
 	    "s" ) FLG_SAVE_BYPRODUCTS="TRUE" ;;
-	    "i" ) FLG_PACKAGE_NAME="TRUE" ; PACKAGE_NAME="$OPTARG" ;;
-	    "n" ) FLG_SRC="TRUE" ; SRC="$OPTARG" ;;
+	    "n" ) FLG_PACKAGE_NAME="TRUE" ; PACKAGE_NAME="$OPTARG" ;;
+	    "i" ) FLG_SRC="TRUE" ; SRC="$OPTARG" ;;
 	esac
     done
 
